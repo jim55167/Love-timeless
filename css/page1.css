@@ -374,9 +374,6 @@ body {
   width: 100%;
   text-align: center;
 }
-.menu-line{
-  display: none;
-}
 .menu-box li {
   width: 108px;
   height: 75px;
@@ -395,21 +392,18 @@ body {
   margin: 0 auto;
   padding: 30px 0;
 }
-.bg_line {
+.shoppingCart{
   margin-right: 165px;
   width: 65px;
   height: 75px;
-  background-color: #00b900;
+}
+.fas{
+  font-size: 48px;
+  color: white;
+  line-height: 1.5;
 }
 .showmenu{
   display: none;
-}
-.img_line_logo {
-  background-image: url(https://img.onl/uNEpCL);
-  width: 45px;
-  height: 43px;
-  object-fit: contain;
-  margin: 9px 9px 0 11px;
 }
 .line span {
   display: inline-block;
@@ -902,7 +896,7 @@ body {
     width: initial;
     justify-content: flex-start;
   }
-  .bg_line{
+  .shoppingCart{
     margin-right: initial;
   }
 }
@@ -1035,19 +1029,6 @@ body {
   .menu-box a{
     padding: 25px 0;
   }
-  .menu-line{
-    width: 748px;
-    display: block;
-    background-color: #00b900;
-    margin-top: 20px !important;
-  }
-  .menu-line a{
-    width: 748px;
-    height: 60px
-  }
-  .menu-line:hover{
-    background-color: #00b900 !important;
-  }
   .menu-box li{
     width: 748px;
     height: 60px;
@@ -1082,7 +1063,7 @@ body {
   .menu-show .menu-box{
     max-height: 500px;
   } 
-  .bg_line{
+  .shoppingCart{
     display: none;
   }
   .banner_open_line{

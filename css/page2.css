@@ -335,6 +335,16 @@ body {
     margin: 70px auto;
     padding: 0 20px;
 }
+.shoppingCart{
+  margin-right: 165px;
+  width: 65px;
+  height: 75px;
+}
+.fas{
+  font-size: 48px;
+  color: white;
+  line-height: 1.5;
+}
 @media(max-width:1199px){
   .swiper-button-next-box{
     margin-right: 20px;
