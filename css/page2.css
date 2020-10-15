@@ -341,9 +341,9 @@ body {
   height: 75px;
 }
 .fas{
-  font-size: 48px;
+  font-size: 40px;
   color: white;
-  line-height: 1.5;
+  line-height: 1.8;
 }
 @media(max-width:1199px){
   .swiper-button-next-box{

@@ -276,6 +276,15 @@ body {
   bottom: 140px;
   display: none;
 }
+.banner_open_shoppingcart{
+  width: 66px;
+  height: 66px;
+  z-index: 100;
+  position: fixed;
+  right: 20px;
+  bottom: 220px;
+  display: none;
+}
 .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
   margin: 0 12px;
   width: 12px;
@@ -398,9 +407,9 @@ body {
   height: 75px;
 }
 .fas{
-  font-size: 48px;
+  font-size: 40px;
   color: white;
-  line-height: 1.5;
+  line-height: 1.8;
 }
 .showmenu{
   display: none;
@@ -1067,6 +1076,9 @@ body {
     display: none;
   }
   .banner_open_line{
+    display: block;
+  }
+  .banner_open_shoppingcart{
     display: block;
   }
 }
